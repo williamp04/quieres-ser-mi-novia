@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤Quieres ser mi novia❤</title>
+    <style>
+        body{
+            background-color: crimson;
+            text-align: center;
+        }
+
+        .body__title{
+            color: white;
+        }
+        .body__imagen{
+            width: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1 class="body__title">❤Quieres ser mi novia ❤</h1>
+    <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2023/08/nk_ShrekRevenge_offplatform.jpg?strip=all&quality=100&w=1920&h=1080&crop=1" 
+    alt="sherk" class="body__imagen">
+    <button id="yes">❤si soy❤</button>
+    <button id="no">😢nel perro❤</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const somosnovios = () => {
+            alert('💕now somos novios💖');
+            alert('😱nuestra boda is mañana');
+            location.href = 'https://www.youtube.com/watch?v=ARWg160eaX4';
+        }
+
+        const evitar = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            vutonNo.style.left = (math.random() = window.innerWidth) + 'px';
+        }
+
+        vutonSi.addEventListener('click', somosnovios);
+        vutonNo.addEventListener('mouseover', evitar)
+    </script>
+</body>
+</html>
